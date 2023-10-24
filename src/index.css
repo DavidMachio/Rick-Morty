@@ -1,0 +1,22 @@
+:root {
+  --primary: rgb(31, 31, 31);
+  --secondary: rgb(240, 240, 240);
+  --tertiary: rgb(109, 249, 16);
+  --fourth: rgb(244, 7, 244);
+}
+body {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}

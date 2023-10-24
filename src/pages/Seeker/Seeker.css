@@ -1,0 +1,76 @@
+main {
+  min-height: calc(100vh - 150px);
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.search > input {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+}
+.pages {
+  display: flex;
+  gap: 20px;
+}
+.pages > button {
+  color: inherit;
+  background-color: inherit;
+  padding: 10px;
+  border: 2px solid var(--fourth);
+  border-radius: 10px;
+}
+.pages > button:hover {
+  scale: 110%;
+  box-shadow: 0 0 10px var(--fourth);
+}
+.error {
+  text-align: center;
+  padding: 20px;
+}
+.error img {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+}
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--fourth);
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  scale: 102%;
+  box-shadow: 0 0 10px var(--fourth);
+}
+.card > h3 {
+  align-self: center;
+  padding: 5px;
+}
+.results img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.dates {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+
+  border-radius: 0 10px 10px 10px;
+  padding: 10px;
+}
